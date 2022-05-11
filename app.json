@@ -1,0 +1,27 @@
+{
+  "name": "Kontol",
+  "description": "kontol ya kontol",
+  "logo": "https://telegra.ph/file/b0abf1b9bec33146e4288.jpg",
+  "keywords": ["heroku", "telegram"],
+  "stack": "container",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Masukan Bot Token dari @BotFather",
+      "required": true
+    },
+    "AUTHORIZED_USERS": {
+      "description": "Isi id admin",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "Isi dengan heroku kontol key",
+      "required": true,
+      "value": ""
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Isi dengan name heroku kontol",
+      "required":true,
+      "value": ""
+    }
+  }
+}
